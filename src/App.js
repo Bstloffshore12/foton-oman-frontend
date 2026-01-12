@@ -109,8 +109,8 @@ function App() {
       {data &&
         <store.Provider value={[lang, setLang, menu, SetMenu, slugdata, SetslugData]}>
           <BrowserRouter>
-            {/* <BasicExample /> */}
-            <NavScrollExample/>
+            <BasicExample />
+            {/* <NavScrollExample/> */}
 
             <ul id="MiniLeftNav">
               <li>

@@ -2,9 +2,10 @@
 
 body {
   margin: 0;
- 
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
  
 }
 
@@ -12,16 +13,11 @@ p,h1,h2,h3,h4,h5,h6,ul,li,a{
   font-family: 'Montserrat', sans-serif !important;
 }
 
-
-
-
 /* Navabar css start */
 
 
-.row{
-  width: 100%;
-}
-.navbar-new{
+
+/* .navbar-new{
   background-color: #041954;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 0px !important;
@@ -49,20 +45,18 @@ p,h1,h2,h3,h4,h5,h6,ul,li,a{
   position: relative !important;
   right: 3% !important;
 }
+.dropdown-item  a{
+ text-transform: uppercase;
+  color: #0000 !important;
+text-decoration: none;
+  font-size: 14px;
+}
 .nav-link a{
  text-transform: uppercase;
   color: white !important;
 text-decoration: none;
 }
-.dropdown-item a{
-  
- text-transform: uppercase;
-  color: white !important;
-text-decoration: none;
-  font-size: 14px;
 
-
-}
 .dropdown-item:hover{
   background-color: black !important;
   
@@ -93,7 +87,7 @@ text-decoration: none;
 .navbar-brand{
   width: 150px !important;
 
-}
+} */
 .testimotionals .card {
   
   overflow:hidden;
