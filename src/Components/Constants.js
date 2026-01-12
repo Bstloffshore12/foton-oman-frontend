@@ -1,0 +1,1 @@
+export const apiUrl = "https://dev10.sbagh.com/api/"
