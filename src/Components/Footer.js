@@ -30,6 +30,9 @@ function Footer() {
                                         <div style={{ width: '200px' }}>
                                             <img src='/Images/logo/toton-logo.png' width={'100%'} />
                                         </div>
+                                        <div style={{ width: '200px' }}>
+                                            <img src='/Images/logo/GGS_white.png' width={'100%'} />
+                                        </div>
                                         <p className='mt-3'>{lang ? footerdata.about_foton.content.about_ar : footerdata.about_foton.content.about_en
                                         }</p>
                                     </div>
